@@ -15,7 +15,7 @@
 
 <Header />
 <main>
-  <Tabs />
+  <Tabs {activeItem} {items}/>
 
 
 </main>

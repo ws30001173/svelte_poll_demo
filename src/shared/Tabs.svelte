@@ -4,14 +4,13 @@
 </script>
 
 <div class="tabs">
-  <!-- <ul>
+  <ul>
     {#each items as item}
       <li>
         <div>{item}</div>
       </li>
     {/each}
-  </ul> -->
-  <p>Check the component</p>
+  </ul>
 </div>
 
 <style>

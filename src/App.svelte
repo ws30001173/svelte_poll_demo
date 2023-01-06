@@ -7,6 +7,7 @@
   import Header from './components/Header.svelte';
   import Footer from './components/Footer.svelte';
   import Tabs from './shared/Tabs.svelte';
+  import CreatePollForm from './components/Footer.svelte';
 
   // tabs
   let items = ['Current Polls', 'Add New Poll'];
@@ -20,9 +21,9 @@
 <main>
   <Tabs {activeItem} {items} on:tabChange={tabChange}/> <!-- custom event -->
   {#if activeItem === 'Current Polls'}
-    <p>Poll list component goes here</p>
+    <p>Poll list component goes here~</p>
   {:else if activeItem === 'Add New Poll'}
-    <p> new poll form component goes here</p>
+    <CreatePollForm />
   {/if}
 
 </main>
